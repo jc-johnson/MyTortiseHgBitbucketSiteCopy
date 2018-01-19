@@ -1,3 +1,8 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
 header, footer {
     padding: 1em;
     color: white;
@@ -6,7 +11,14 @@ header, footer {
     text-align: center;
 }
 
-ul {
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,10 +28,12 @@ ul {
 
 ul.QuickLinks {
   background-color: green;
+  float: right;
 }
 
 ul.ForDevelopers {
   background-color: green;
+  float: right;
 }
 
 
