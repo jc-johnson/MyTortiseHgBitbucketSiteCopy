@@ -7,20 +7,29 @@
   </head>
   <body>
 
-    <div class="container">
-      <header>
-        <h1>TortoiseHg</h1>
-      </header>
-
-      <nav>
-        <ul>
-          <li><a href="#Downloads">Downloads</a></li>
-          <li><a href="#Wiki">Wiki</a></li>
-          <li><a href="#Docs">Docs</a></li>
-          <li><a href="#Development">Development</a></li>
-          <li><a href="#About">About</a></li>
-        </ul>
-      </nav>
+    <div class="baseWrapper">
+      <div class="headerWrapper">
+        <div>
+          <div>
+            Language:
+              <select>
+                <option value="en">English</option>
+                <option value="ja">日本語</option>
+                <option value="pl">Polski</option>
+                <option value="de">Deutsch</option>
+              </select>
+            </div>
+          </div>
+          <h1><a href="http://tortoisehg.org/">TortoiseHg</a></h1>
+          <ul>
+            <li><a href="download/index.html">Downloads</a></li>
+            <li><a href="https://bitbucket.org/tortoisehg/thg/wiki/Home">Wiki</a></li>
+            <li><a href="docs.html">Docs</a></li>
+            <li><a href="https://bitbucket.org/tortoisehg/thg/wiki/developers/Home">Development</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+      </div>
+    </div>
 
       <article>
         TortoiseHg is a Windows shell extension and a series of applications for the Mercurial distributed revision control system. It also includes a Gnome/Nautilus extension and a CLI wrapper application so the TortoiseHg tools can be used on non-Windows platforms.
@@ -67,7 +76,44 @@
         TortoiseHg issues list: for issue notifications (read-only)
         Donations
         If you would like to donate money towards TortoiseHg development or upkeep, use this link. TortoiseHg is free, donations are voluntary. Donations go through Steve Borho's personal paypal account, which is named "Borho and Son". If you use a credit card the charge will appear as "THG DEVS" or "TORTOISEHG DEVS"
-	
+  <div class="block">
+      <h2>Supported Platforms</h2>
+      <ul>
+          <li>Microsoft Windows XP, Vista, 7, 8.1, and 10</li>
+          <li>Command line support via thg</li>
+          <li><a href="https://bitbucket.org/tortoisehg/thg/wiki/developers/MacOSX">Mac OS X</a> port via source install</li>
+          <li>Gnome/<a href="https://bitbucket.org/tortoisehg/hgtk/wiki/nautilus">Nautilus</a> integration</li>
+      </ul>
+      <p>Like TortoiseSVN, <a href="http://mercurial-scm.org/pipermail/mercurial/2010-January/029680.html">we recommend</a> to turn off the indexing service on the working copies and repositories, and exclude them from virus scans.</p>
+  </div>
+  <div class="block">
+      <h2>Mailing Lists</h2>
+      <p>For any questions or comments on TortoiseHg, please post to TortoiseHg's mailing lists:</p>
+      <ul>
+          <li>TortoiseHg <a href="https://lists.sourceforge.net/lists/listinfo/tortoisehg-discuss">discussion</a> list:
+              for general questions on TortoiseHg (<a href="http://news.gmane.org/gmane.comp.version-control.mercurial.tortoisehg.user">gmane archive</a>)</li>
+          <li>TortoiseHg <a href="http://groups.google.com/group/thg-dev">developers</a> list:
+              for development on TortoiseHg</li>
+          <li>TortoiseHg <a href="https://lists.sourceforge.net/lists/listinfo/tortoisehg-issues">issues</a> list: for issue notifications (read-only)</li>
+      </ul>
+  </div>
+  <div class="block">
+    <h2>Donations</h2>
+
+    <p> If you would like to donate money towards TortoiseHg development or
+    upkeep, use this link. TortoiseHg is free, donations are voluntary.
+    Donations go through Steve Borho's personal paypal account, which is
+    named "Borho and Son". If you use a credit card the charge will
+    appear as "THG DEVS" or "TORTOISEHG DEVS" </p>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="YX28MK7J4VLVW">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  </div>
+
 	<div class = "sideWrapper">
 		<div class="side">
 			<h2>QuickLinks</h2>
@@ -80,7 +126,7 @@
 				<li><a href="#Roadmap">Roadmap</a></li>
 			</ul>
 		</div>
-		
+
 		<div class="side">
 			<h2>ForDevelopers</h2>
 			<ul>
@@ -93,9 +139,18 @@
 			</ul>
 		</div>
 	</div>
-    </article>
-
-      <footer>Copyright &copy; Hg Tortise</footer>
+  </article>
+  </div>
+  <div class="clear footerMargin"></div>
+  <div class="footerWrapper">
+    <div class="footerInnerWrapper">
+      <a href="http://www.bitbucket.org/"><img src="http://via.placeholder.com/350x150" alt="bitbucket" /></a>
+      <a href="http://mercurial-scm.org/"><img src="http://via.placeholder.com/350x150" alt="Mercurial" /></a>
+        <div class="footerDesc">
+          <p>Copyright &copy; 2017 Steve Borho and <a href="https://www.ohloh.net/p/tortoisehg/contributors">others</a>.</p>
+          <p>Hosted by <a href="http://www.bitbucket.org/">Bitbucket</a>. Design by <a href="http://blog.endflow.net/">Yuki Kodama</a>.</p>
+      </div>
     </div>
+  </div>
   </body>
 </html>
