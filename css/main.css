@@ -155,7 +155,6 @@ html, body {
     position: relative;
 }
 
-/*
 .contentWrapper {
     float: left;
     width: 680px;
@@ -191,7 +190,7 @@ html, body {
 }
 
 /* styles for banner */
-/*
+
 .headerWrapper #banner {
     margin-top: 20px !important;
     width: 320px !important;
@@ -203,16 +202,16 @@ html, body {
 }
 
 /* styles for screenshots.html */
-/*
+
 .screenshots > h3 {
     margin-top: 24px;
 }
 
 /* styles for about.html */
-/*
+
 .ohlohWidget {
     float: left;
     margin: 4px 8px;
 }
 
-*/
+
