@@ -1,3 +1,112 @@
+/* Common styles */
+
+html, body {
+    color: #545454;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+body {
+    background: url("img/bg.png") repeat-x scroll left top #FFFFFF;
+}
+
+
+h2 {
+    font-size: 120%;
+}
+
+.clear {
+    clear: both;
+}
+
+.block {
+    margin-top: 28px;
+    font-size: 85%;
+}
+
+.block:first-child {
+    margin-top: 16px;
+}
+
+.block h2 {
+    margin: 16px 0 8px;
+}
+
+.block h3 {
+    margin: 12px 0 6px;
+}
+
+.block p {
+    line-height: 160%;
+    margin: 8px 0 16px;
+}
+
+.block p:first-child {
+    margin-top: 0;
+}
+
+.block ul {
+    line-height: 140%;
+    margin: 8px 0 16px 8px;
+}
+
+.side{
+	  margin: 8px;
+    padding: 8px;
+    background-color: #DFFFDF;
+    font-size: 75%;
+    border: 1px solid #D1EFD1;
+}
+
+.side h2 {
+    background: url("img/titlebg.png") no-repeat scroll left top #DFFFDF;
+    margin: -8px -8px -4px;
+    padding: 8px;
+    height: 24px;
+}
+
+.side ul {
+    line-height: 180%;
+}
+
+a, a:link, a:visited {
+    color: #008800;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+/* Specific Styles */
+
+.headerWrapper h1 {
+    background: url("img/logo.png") no-repeat scroll left top transparent;
+}
+
+.headerWrapper ul li a,
+.headerWrapper ul li a:link,
+.headerWrapper ul li a:visited {
+    color: #545454;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+.headerWrapper > div > div:first-child {
+    font-size: 80%;
+}
+
+/* Structures */
+
+html, body {
+    height: 100%;
+}
+
+.baseWrapper {
+    height: auto !important;
+    min-height: 100%;
+    width: 960px;
+    margin: 0 auto;
+}
 
 .headerWrapper {
     width: 100%;
@@ -22,11 +131,13 @@
     margin-left: 12px;
 }
 
+
 .headerWrapper ul li {
     display: block;
     float: left;
     margin: 0 8px;
 }
+
 
 .headerWrapper > div {
     float: right;
@@ -34,24 +145,20 @@
     margin-right: 18px;
 }
 
-div.container {
+.headerWrapper > div > div:first-child {
+    text-align: right;
+}
+
+.wideWrapper {
+    float: left;
     width: 100%;
-    border: 1px solid gray;
+    position: relative;
 }
 
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
-
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
+/*
+.contentWrapper {
+    float: left;
+    width: 680px;
 }
 
 .sideWrapper {
@@ -60,32 +167,52 @@ article {
     margin-top: 8px;
 }
 
-.side{
-	margin: 8px;
-    padding: 8px;
-    background-color: #DFFFDF;
+.footerMargin {
+    height: 130px;
+}
+
+.footerWrapper {
+    width: 100%;
+    height: 100px;
+    margin-top: -130px;
+
+    text-align: center;
     font-size: 75%;
-    border: 1px solid #D1EFD1;
 }
 
-.side h2 {
-    background-color: #DFFFDF;
-    margin: -8px -8px -4px;
-    padding: 8px;
-    height: 24px;
+.footerInnerWrapper {
+    padding-top: 30px;
 }
 
-.side ul {
-    line-height: 180%;
+.footerDesc {
+    line-height: 150%;
+    margin-top: 0.75em;
+    margin: 0.8em 0 1em;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+/* styles for banner */
+/*
+.headerWrapper #banner {
+    margin-top: 20px !important;
+    width: 320px !important;
 }
 
+#banner {
+    width: 340px !important;
+    text-align: center;
+}
 
+/* styles for screenshots.html */
+/*
+.screenshots > h3 {
+    margin-top: 24px;
+}
 
+/* styles for about.html */
+/*
+.ohlohWidget {
+    float: left;
+    margin: 4px 8px;
+}
+
+*/
