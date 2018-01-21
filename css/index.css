@@ -1,0 +1,106 @@
+.visualTour {
+    position: absolute;
+    left: 520px;
+    top: -150px;
+    height: 300px;
+    width: 420px;
+}
+
+.coverImage {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.coverImage img {
+    padding: 10px 0 0 2px;
+}
+
+.imagesWrapper {
+    display: none;
+    position: relative;
+}
+
+.coverImage img, .imagesWrapper img {
+    position: absolute;
+}
+
+.captionWrapper {
+    display: none;
+    font-style: italic;
+    font-size: 140%;
+    color: #FFFFFF;
+    background-color: #484848;
+    text-align: center;
+    padding: 0.25em 0 0.5em;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.descriptionWrapper {
+    width: 480px;
+    margin-top: 16px;
+}
+
+.descriptionWrapper p {
+    line-height: 130%;
+    font-size: 125%;
+}
+
+.newsWrapper {
+    width: 560px;
+    float: left;
+    margin-top: 2px;
+}
+
+.downloadWrapper {
+    width: 400px;
+    float: right;
+}
+
+.downloadInnerWrapper {
+    margin: 0 auto;
+    height: 61px;
+    width: 357px;
+}
+
+.downloadButton {
+    background: url("http://via.placeholder.com/350x150") no-repeat scroll left top transparent;
+}
+
+.downloadButton,
+.downloadButton:link,
+.downloadButton:visited,
+.downloadButton:hover,
+.downloadButton:focus {
+    display: block;
+    height: 100%;
+    width: 100%;
+
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.downloadButton span {
+    position: relative;
+    top: 40px;
+    left: 50px;
+    opacity: 0.84;
+}
+
+.downloadInnerWrapper div {
+    margin: 6px;
+}
+
+.downloadInnerWrapper div a {
+    margin: 0 6px;
+}
+
+/* styles for banner */
+
+.dlWrapper #banner {
+    margin: 52px auto 4px !important;
+    width: 320px !important;
+}
+
+
